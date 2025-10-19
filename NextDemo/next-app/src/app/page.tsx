@@ -5,8 +5,6 @@ export default function Home() {
       <h1 className="text-4xl font-bold">Welcome to the Home Page</h1>
       <p className="mt-4 text-lg">This is a sample Next.js application.</p>
       <button>
-        <Link href="/">Go to Home Page</Link>
-        <br />
         <Link href="/posts">Go to Posts Page</Link>
       </button>
     </main>
